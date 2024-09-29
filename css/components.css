@@ -1,3 +1,24 @@
+
+
+/*Título  e Subtítulo*/
+
+.principal__titulo{
+    font-size: 2.25em;
+    margin: 30px 0;
+    color:  #2304b6;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 2px blue;
+} 
+
+.principal__subtitulo {
+    font-size: 1.50em;
+    color: #2304b6;
+    text-align: center;
+}
+
+/* Carrossel */
+
 .carousel{
     margin: 0 auto;
     border: 2px solid black;
@@ -12,3 +33,41 @@
         margin: 0;
     }
 }
+
+/*quem-somos*/
+.quem-somos__titulo{
+    font-size: 1.75em;
+    margin: 30px 0;
+    color: #2304b6;
+    text-align: center;
+    text-shadow: 1px 2px blue;
+}
+
+.quem-somos__subtitulo{
+    font-size: 1.1em;
+    margin: 20px 10%;
+    color: #2304b6;
+    text-align: justify;
+}
+
+/*Jogos*/
+
+
+/*Contato*/
+
+
+/*Cadastro*/
+
+
+/*Login*/
+
+
+/*rodapé*/
+.rodape{
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #2304b6;
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 5PX;
+    }

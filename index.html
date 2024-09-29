@@ -9,19 +9,41 @@
         <link rel="stylesheet" href="./css/base.css" />
         <link rel="stylesheet" href="./css/layout.css" />
         <link rel="stylesheet" href="./css/components.css" />
-
-        <script
-            src="https://code.jquery.com/jquery-3.7.1.min.js"
-            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-            crossorigin="anonymous"
-        ></script>
-        <script src="./js/bootstrap.min.js"></script>
     </head>
-
     <body>
         <header class="layout-cabecalho">
-            <img src="./img/Logo.gif" alt="Logo" />
+            <img src="./img/Logo.gif" alt="Logo" width="80" />
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="./pages/sobre.html">Sobre</a></li>
+                    <li><a href="#jogos">Jogos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#cadastrar">Cadastrar</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+                <div class="mobile-menu-icon">
+                    <span>&#9776;</span>
+                </div>
+            </nav>
         </header>
+
+        <main>
+            <section id="home">
+                <div class="principal">
+                    <h1 class="principal__titulo">
+                        Bem-vindo ao Mundo dos Jogos!
+                    </h1>
+
+                    <h3 class="principal__subtitulo">
+                        Prepare-se para horas de diversão.
+                    </h3>
+                    <h3 class="principal__subtitulo">
+                        Você não pode ficar fora dessa!
+                    </h3>
+                </div>
+            </section>
+        </main>
 
         <div class="slider">
         <div class="layout-slider">
@@ -83,5 +105,19 @@
                 </a>
             </div>
         </div>
+
+        <footer class="layout-rodape"></footer>
+            <div class="rodape">
+                <p>Todos os direitos reservados &copy; 2024 T.E.G</p>
+            </div>
+        </footer>
+
+        <script src="./js/hamburguer.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"
+        ></script>
+        <script src="./js/bootstrap.min.js"></script>
     </body>
 </html>
