@@ -1,3 +1,39 @@
+body {
+    background-image: linear-gradient(
+        to right,
+        #000080,
+        #1f01b3,
+        #a46ae3,
+        #b1a2f6,
+        #a46ae3,
+        #1f01b3,
+        #000080
+    );
+}
 .layout-cabecalho {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid navy;
+    background-color: #2304b6;
+}
+.layout-cabecalho > img {
+    margin: 10px;
+    width: 80px;
+    border-radius: 90%;
+}
+.layout-slider {
+    height: 650px;
+}
+.layout-slider > h1 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 20%;
+    text-shadow: 1px 2px blue;
+}
+@media (max-width: 768px) {
+    .layout-slider > h1 {
+        font-size: 1.75rem;
+    }
+    .layout-slider{
+        height: 500px;
+    }
 }
