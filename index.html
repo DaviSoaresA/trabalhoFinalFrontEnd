@@ -8,10 +8,35 @@
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/layout.css" />
     <link rel="stylesheet" href="./css/components.css" />
+
   </head>
   <body>
-    <header class="layout-cabecalho">
-      <img src="./img/Logo.gif" alt="Logo" width="80" />
+
+   <header class="layout-cabecalho layout-cabecalho--position">
+<div class="container">
+<nav class="navegacao">
+      <img src="./img/Logo.gif" alt="Logo" width="80" />   
+      <div class="navegacao__menu">
+        <button class="botao--chaveador"></button>           
+  <ul class="menu">
+<li class="menu__item">
+  <a href="#">Quem somos</a>
+</li>
+<li class="menu__item">
+  <a href="#">Contato</a>
+</li>
+<li class="menu__item">  <a href="#">Fotos</a>
+</li>
+<li class="menu__item">
+  <a href="#">Videos</a>
+</li>
+<li class="menu__item"></li>
+  <a href="#" class="botao botao--login">Login</a>
+</li>
+  </ul>
+</div>
+</nav>
+<div>
     </header>
 
     <h1>Galeria de Vídeos</h1>
@@ -22,6 +47,7 @@
           autoplay
           muted
           controls
+          width="420"
         ></video>
       </div>
 
@@ -41,6 +67,7 @@
           autoplay
           muted
           controls
+          width="420"
         ></video>
       </div>
 
@@ -50,8 +77,10 @@
           autoplay
           muted
           controls
+          width="420"
         ></video>
       </div>
+
       <div class="item">
         <video
           src="video/WhatsApp Video 2024-09-27 at 17.45.10.mp4"
@@ -70,9 +99,9 @@
           controls
           width="420"
         ></video>
-      </div>
-    </div>
 
+      </div>    
+    </div>
     <h1>Galeria de Fotos</h1>
     <div class="galeria">
       <div class="item">
