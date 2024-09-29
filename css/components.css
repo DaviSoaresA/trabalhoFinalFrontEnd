@@ -1,3 +1,76 @@
+.botao {
+    display: inline-block;
+    background-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+
+.botao:hover {
+    background-color: red;
+}
+
+.botao:focus {
+    background-color: orange;
+}
+
+
+.botao--principal,
+.botao--login {
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.botao--chaveador {
+    width: 24px;
+    height: 24px;
+    border: 0;
+    background-image: url("../img/hamburguer.webp");
+    outline: none;
+}
+
+@media (min-width: 992px){
+    .botao--chaveador {
+        display: none;
+    }
+}
+
+.navegacao {    
+}
+
+.navegacao__menu {
+    float: right;
+}
+
+@media (max-width: 991px) {
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 200px;
+        border: 1px solid #eee;
+        background-color: #fbfbfb;
+        padding: 20px;
+        margin: 0;
+        font-size: 1.2rem;
+        list-style: none;        
+    }
+}
+
+@media (min-width: 992px) {
+    .menu__item {
+        display: inline-block;
+        padding-right: 20px;
+    }
+    .menu__item:last-of-type {
+        padding-right: 0px;
+    }
+}
+
+
+
+
 .item img,
 .item video {
     max-width: 100%;
@@ -14,7 +87,7 @@
     border-radius: 10px;
     overflow: hidden;
     background-color: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -22,3 +95,4 @@
     transform: scale(1.05);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
+

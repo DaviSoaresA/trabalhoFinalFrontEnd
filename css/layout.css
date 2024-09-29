@@ -1,3 +1,20 @@
+.layout-cabecalho {
+    line-height: 60px;
+    height: 80px;
+    border: 1px solid blueviolet;
+}
+
+.layout-cabecalho--position {
+    background-color: aqua;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+
+
 .galeria {
     display: flex;
     flex-wrap: wrap;
