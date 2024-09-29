@@ -10,10 +10,8 @@
     border-radius: 90%;
 }
 
-.layout-login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.layout-login, .layout-cadastro {
+    position: relative;
     box-sizing: border-box;
-    border: 2px solid #4f00ed;
 }
+
