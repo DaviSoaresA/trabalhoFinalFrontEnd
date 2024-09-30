@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=, initial-scale=1.0" />
+        <title>Contact</title>
+        <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../css/base.css" />
+        <link rel="stylesheet" href="../css/layout.css" />
+        <link rel="stylesheet" href="../css/components.css" />
+    </head>
+
+    <body>
+        <header class="layout-cabecalho">
+            <div class="container-fluid">
+                <img src="../img/Logo.gif" alt="Logo" width="80" />
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../pages/sobre.html">Sobre</a></li>
+                        <li><a href="#jogos">Jogos</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#cadastrar">Cadastrar</a></li>
+                        <li><a href="#login">Login</a></li>
+                    </ul>
+                    <div class="mobile-menu-icon">
+                        <span>&#9776;</span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="layout-contatos">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h1>Contato</h1>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label"
+                                    >Nome</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    required
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label"
+                                    >Email</label
+                                >
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    required
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label"
+                                    >Mensagem</label
+                                >
+                                <textarea
+                                    class="form-control"
+                                    id="message"
+                                    rows="5"
+                                    required
+                                ></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                Enviar
+                            </button>
+                        </form>
+                        <p>Siga-nos nas redes sociais:</p>
+                        <a
+                            href="https://www.facebook.com"
+                            class="btn btn-outline-primary"
+                            >Facebook</a
+                        >
+                        <a
+                            href="https://www.gmail.com"
+                            class="btn btn-outline-info"
+                            >Email</a
+                        >
+                        <a
+                            href="https://www.instagram.com"
+                            class="btn btn-outline-danger"
+                            >Instagram</a
+                        >
+                        <a
+                            href="https://www.youtube.com"
+                            class="btn btn-outline-danger"
+                            >Youtube</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="layout-rodape">
+            <div class="rodape">
+                <p>Todos os direitos reservados &copy; 2024 T.E.G</p>
+            </div>
+        </footer>
+    </body>
+</html>

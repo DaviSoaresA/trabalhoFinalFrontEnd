@@ -27,6 +27,7 @@
     padding: 20px 20%;
     text-shadow: 1px 2px blue;
 }
+
 @media (max-width: 600px) {
     .layout-slider > h1 {
         font-size: 1.75rem;
@@ -63,6 +64,7 @@
     color: #b1a2f6;
 }
 
+
 /* Ícone do menu mobile */
 
 .mobile-menu-icon {
@@ -70,6 +72,18 @@
     font-size: 2rem;
     color: #fff;
     cursor: pointer;
+}
+
+/* Quem somos */
+
+#quem-somos{
+    padding: 5%;
+}
+
+/* Contatos */
+
+.layout-contatos {
+    padding: 5% 0;
 }
 
 /* Responsividade */
