@@ -51,6 +51,8 @@
 }
 
 .nav-links > li {
+    padding: 5px 10px;
+    margin-top: 1rem;
     margin-left: 2rem;
 }
 
@@ -64,6 +66,40 @@
     color: #b1a2f6;
 }
 
+/* Navegacao index */
+
+.navindex {
+    margin-left: -25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navindex-items {
+    list-style: none;
+    display: flex;
+}
+
+.navindex-items > li {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.navindex-items > li > a {
+    text-decoration: none;
+    color: #b1a2f6;
+    font-size: 1.1rem;
+}
+
+.navindex-items > li > a:hover {
+    color: #fff;
+}
+
+/* Galeria */
+
+.galeria {
+    padding-bottom: 50px;
+}
 
 /* Ícone do menu mobile */
 

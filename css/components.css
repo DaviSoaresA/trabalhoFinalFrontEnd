@@ -1,4 +1,4 @@
-/*Título  e Subtítulo*/
+/* Título  e Subtítulo */
 
 .principal__titulo {
     font-size: 2.25em;
@@ -21,16 +21,39 @@
 
 .carousel {
     margin: 0 auto;
-    border: 2px solid black;
     max-width: 850px;
 }
-.d-block {
+
+.carousel > a {
+    bottom: 15%;
+}
+
+.item {
     width: 100%;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 600px) {
     .carousel {
         width: 100%;
         margin: 0;
+    }
+}
+
+/* Biblioteca */
+
+.item-bbl {
+    height: 30%;
+    width: 30%;
+    margin: 1% 1.25%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 600px) {
+    .item-bbl {
+        width: 45%;
+        margin: 1% 2%;
     }
 }
 
@@ -43,7 +66,7 @@
     color: black;
     text-align: center;
     text-shadow: 1px 2px blue;
-}
+    }
 
 .quem-somos__subtitulo {
     font-size: 1.1em;
@@ -59,11 +82,20 @@
 
 /*Cadastro*/
 
-.form-label {
+.col-md-8 > h1 {
+    color: black;
+    text-shadow: 1px 2px blue;
     font-weight: bold;
 }
 
-.col-md-8 > p{
+.form-label {
+    color: black;
+    font-weight: bold;
+}
+
+.col-md-8 > p {
+    margin-top: 15px;
+    color: black;
     font-weight: bold;
 }
 
