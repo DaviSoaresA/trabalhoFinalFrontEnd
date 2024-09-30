@@ -1,17 +1,42 @@
 /*Barra de Navegação*/
 
-.layout-cabecalho{
+.layout-cabecalho > .container-fluid{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #2304b6; 
+    border-bottom: 1px solid navy;
     }
 
-.layout-cabecalho > img{
+.container-fluid > img{
     margin: 10px;
     width: 80px;
     border-radius: 90%;
 }
+
+/* Carrossel */
+
+.layout-slider {
+    height: 650px;
+}
+.layout-slider > h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 20px 20%;
+    text-shadow: 1px 2px blue;
+}
+@media (max-width: 600px) {
+    .layout-slider > h1 {
+        font-size: 1.75rem;
+    }
+    .layout-slider{
+        height: 500px;
+    }
+}
+
+/* Menu Hamburguer */
 
 .navbar {
     display: flex;
@@ -24,21 +49,22 @@
     display: flex;
 }
 
-.nav-links li {
+.nav-links > li {
     margin-left: 2rem;
 }
 
-.nav-links li a {
+.nav-links > li > a {
     text-decoration: none;
     color: #fff;
     font-size: 1.1rem;
 }
 
-.nav-links li a:hover {
-    color: #b1a2f6; /* Fúcsia */
+.nav-links > li > a:hover {
+    color: #b1a2f6;
 }
 
 /* Ícone do menu mobile */
+
 .mobile-menu-icon {
     display: none;
     font-size: 2rem;
@@ -47,13 +73,16 @@
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+
+@media (max-width: 600px) {
     .nav-links {
+        z-index: 1;
         display: none;
+        border: 1px solid navy;
         flex-direction: column;
         position: absolute;
-        top: 60px;
-        right: 32px;
+        top: 80px;
+        right: -15px;
         background-color: #2304b6;
         width: 10rem;
         text-align: center;
@@ -71,9 +100,3 @@
         display: block;
     }
 }
-
-.layout-rodape{
-    margin-bottom: 0svh;
-    height: 80px;
-}
-
