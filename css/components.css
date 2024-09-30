@@ -21,8 +21,11 @@
 
 .carousel {
     margin: 0 auto;
-    border: 2px solid black;
     max-width: 850px;
+}
+
+.carousel > a{
+    bottom: 15%;
 }
 
 .item {
