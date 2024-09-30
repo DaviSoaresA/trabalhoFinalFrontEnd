@@ -20,16 +20,25 @@
     <main class="layout-cadastro">
         <div class="container">
             <article class="cadastro">
-                <h1 class="cadastro__cabecalho">Cadastro</h1>
-                <input type="text" name="userName" placeholder="Nome de Usuário">
-                <input type="password" name="senha" placeholder="Senha">
-                
-              <footer class="cadastro__rodape">
-                <button class="botao botao--entrada">Cadastrar</button>
-                <a class="botao botao--login" href="./login.html">Login</a>
-              </footer>
+                <form method="post" class="form">
+
+                    <h1 class="cadastro__cabecalho">Cadastro</h1>
+                    <input type="text" name="nome" placeholder="Nome" class="dados" id="nome">
+                    <input type="date" name="data" class="dados dados--data" id="data">
+                    <input type="email" name="email" placeholder="Email" class="dados" id="email">
+                    <input type="text" name="userName" placeholder="Nome de Usuário" class="dados" id="userName">
+                    <input type="password" name="senha" placeholder="Senha" class="dados" id="senha">
+                    <!-- <input type="password" name="senhaC" placeholder="Confirmação da Senha" class="dados" id="confirmaSenha"> -->
+                    
+                    <footer class="cadastro__rodape">
+                      <button class="botao botao--cadastrar" id="cadastrar">Cadastrar</button>
+                      <a class="botao--login" href="./login.html">Login</a>
+                    </footer>
+                </form>
             </article>
         </div>
     </main>
+
+    <script type="module" src="../js/cadastro.js"></script>
 </body>
 </html>
