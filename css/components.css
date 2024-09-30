@@ -76,11 +76,19 @@
 
 /*Cadastro*/
 
-.form-label {
+.col-md-8 > h1 {
+    color: black;
     font-weight: bold;
 }
 
-.col-md-8 > p{
+.form-label {
+    color: black;
+    font-weight: bold;
+}
+
+.col-md-8 > p {
+    margin-top: 15px;
+    color: black;
     font-weight: bold;
 }
 
