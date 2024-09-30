@@ -64,6 +64,7 @@
     color: #b1a2f6;
 }
 
+
 /* Ícone do menu mobile */
 
 .mobile-menu-icon {
@@ -71,6 +72,12 @@
     font-size: 2rem;
     color: #fff;
     cursor: pointer;
+}
+
+/* Quem somos */
+
+#quem-somos{
+    padding: 5%;
 }
 
 /* Contatos */
