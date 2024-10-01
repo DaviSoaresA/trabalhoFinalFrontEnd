@@ -4,10 +4,10 @@
     font-size: 2.25em;
     font-weight: bold;
     margin: 30px 0;
-    color: black;
+    color: #2304b6;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 1px 2px blue;
+    text-shadow: 1px 2px rgb(255, 64, 182);
 }
 
 .principal__subtitulo {
@@ -63,9 +63,9 @@
     font-size: 1.75em;
     font-weight: bold;
     margin: 30px 0;
-    color: black;
+    color: #2304b6;
     text-align: center;
-    text-shadow: 1px 2px blue;
+    text-shadow: 1px 2px rgb(255, 64, 182);
     }
 
 .quem-somos__subtitulo {
@@ -83,8 +83,8 @@
 /*Cadastro*/
 
 .col-md-8 > h1 {
-    color: black;
-    text-shadow: 1px 2px blue;
+    color: #2304b6;
+    text-shadow: 1px 2px rgb(255, 64, 182);
     font-weight: bold;
 }
 
@@ -116,9 +116,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #f110d5;
+    color: #a46ae3;
     border: 3px solid #ddd;
-    background-color: #000a2f;
+    background-color: #021129;
     width: 35%;
     margin: 7.37% auto;
 }
@@ -129,9 +129,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #f110d5;
+    color: #a46ae3;
     border: 3px solid #ddd;
-    background-color: #000a2f;
+    background-color: #021129;
     width: 35%;
     margin: 5% auto;
 }
@@ -197,9 +197,9 @@
 .rodape {
     display: flex;
     justify-content: center;
-    background-color: #2304b6;
+    background-color: #021129;
     border-top: 1px solid navy;
-    color: black;
+    color: white;
     align-items: center;
     text-align: center;
     font-size: 1.2rem;

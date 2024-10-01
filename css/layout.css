@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2304b6; 
+    background-color: #021129; 
     border-bottom: 1px solid navy;
     }
 
@@ -28,10 +28,10 @@
 .layout-slider > h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: black;
+    color: #2304b6;
     text-align: center;
     padding: 20px 20%;
-    text-shadow: 1px 2px blue;
+    text-shadow: 1px 2px rgb(255, 64, 182);
 }
 
 @media (max-width: 600px) {
