@@ -119,6 +119,7 @@
     color: #a46ae3;
     border: 3px solid #ddd;
     background-color: #021129;
+    min-width: 300px;
     width: 35%;
     margin: 10% auto;
 }
@@ -132,6 +133,7 @@
     color: #a46ae3;
     border: 3px solid #ddd;
     background-color: #021129;
+    min-width: 300px;
     width: 35%;
     margin: 5% auto;
 }
