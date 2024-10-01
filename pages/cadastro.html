@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../css/base.css" />
+        <link rel="stylesheet" href="../css/layout.css" />
+        <link rel="stylesheet" href="../css/components.css" />
+    </head>
+    <body>
+        <header class="layout-cabecalho">
+            <div class="container-fluid">
+                <img src="../img/Logo.gif" alt="Logo" width="80" />
+
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../pages/sobre.html">Sobre</a></li>
+                        <li><a href="https://trex-runner.com">Jogos</a></li>
+                        <li><a href="../pages/contatos.html">Contato</a></li>
+                        <li><a href="#">Cadastrar</a></li>
+                        <li><a href="../pages/login.html">Login</a></li>
+                    </ul>
+                    <div class="mobile-menu-icon">
+                        <span>&#9776;</span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="layout-cadastro">
+            <div class="container">
+                <article class="cadastro">
+                    <form method="post" class="form">
+                        <h1 class="cadastro__cabecalho">Cadastro</h1>
+                        <input
+                            type="text"
+                            name="nome"
+                            placeholder="Nome"
+                            class="dados"
+                            id="nome"
+                        />
+                        <input
+                            type="date"
+                            name="data"
+                            class="dados dados--data"
+                            id="data"
+                        />
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Email"
+                            class="dados"
+                            id="email"
+                        />
+                        <input
+                            type="text"
+                            name="userName"
+                            placeholder="Nome de Usuário"
+                            class="dados"
+                            id="userName"
+                        />
+                        <input
+                            type="password"
+                            name="senha"
+                            placeholder="Senha"
+                            class="dados"
+                            id="senha"
+                        />
+                        <!-- <input type="password" name="senhaC" placeholder="Confirmação da Senha" class="dados" id="confirmaSenha"> -->
+
+                        <footer class="cadastro__rodape">
+                            <button
+                                class="botao botao--cadastrar"
+                                id="cadastrar"
+                            >
+                                Cadastrar
+                            </button>
+                            <a class="botao--login" href="./login.html"
+                                >Login</a
+                            >
+                        </footer>
+                    </form>
+                </article>
+            </div>
+        </main>
+
+        <footer class="layout-rodape">
+            <div class="rodape">
+                <p>Todos os direitos reservados &copy; 2024 T.E.G</p>
+            </div>
+        </footer>
+    </body>
+    <script type="module" src="../js/cadastro.js"></script>
+</html>

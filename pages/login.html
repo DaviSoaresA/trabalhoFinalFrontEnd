@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../css/base.css" />
+        <link rel="stylesheet" href="../css/layout.css" />
+        <link rel="stylesheet" href="../css/components.css" />
+    </head>
+    <body>
+        <header class="layout-cabecalho">
+            <div class="container-fluid">
+                <img src="../img/Logo.gif" alt="Logo" width="80" />
+
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../pages/sobre.html">Sobre</a></li>
+                        <li><a href="https://trex-runner.com">Jogos</a></li>
+                        <li><a href="../pages/contatos.html">Contato</a></li>
+                        <li><a href="../pages/cadastro.html">Cadastrar</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                    <div class="mobile-menu-icon">
+                        <span>&#9776;</span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="layout-login">
+            <div class="container">
+                <article class="login">
+                    <form method="get" class="form">
+                        <h1 class="login__cabecalho">Login</h1>
+                        <input
+                            type="text"
+                            name="userName"
+                            placeholder="Nome de Usuário"
+                            class="dados"
+                            id="username"
+                        />
+                        <input
+                            type="password"
+                            name="senha"
+                            placeholder="Senha"
+                            class="dados"
+                            id="senhaU"
+                        />
+
+                        <footer class="login__rodape">
+                            <button class="botao botao--logar" id="logar">
+                                Entrar
+                            </button>
+                            <a class="botao--cadastro" href="./cadastro.html"
+                                >Cadastre-se</a
+                            >
+                        </footer>
+                    </form>
+                </article>
+            </div>
+        </main>
+
+        <footer class="layout-rodape">
+            <div class="rodape">
+                <p>Todos os direitos reservados &copy; 2024 T.E.G</p>
+            </div>
+        </footer>
+    </body>
+    <script type="module" src="../js/login.js"></script>
+</html>
