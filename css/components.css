@@ -105,6 +105,93 @@
 
 /*Login*/
 
+.cabecalho__login {
+    display: inline;
+    padding-left: 80%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #f110d5;
+    border: 3px solid #ddd;
+    background-color: #000a2f;
+    width: 35%;
+    margin: 6.69% auto;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #f110d5;
+    border: 3px solid #ddd;
+    background-color: #000a2f;
+    width: 35%;
+    margin: 5% auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__cabecalho, .cadastro__cabecalho {
+    padding: 20px 0;
+}
+
+.login__rodape, .cadastro__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.botao{
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    width: 12.5em;
+    height: 2.5em;
+    transition: 0.5s;
+}
+
+.botao:hover{
+    background-color: #119fd5;
+}
+
+.botao--cadastro, .botao--login{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: 0.3s ease;
+    padding-bottom: 10px;
+}
+
+.botao--cadastro:hover{
+    color: #001be5;
+}
+
+.dados{
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.dados--data{
+    position: relative;
+}
+
 /*rodapé*/
 
 .rodape {
